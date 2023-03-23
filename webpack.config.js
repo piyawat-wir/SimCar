@@ -6,9 +6,10 @@ module.exports = {
 	mode: 'development',
 	entry: {
 		main: "./src/main.ts",
+		worker: "./src/worker.ts",
 	},
 	output: {
-		filename: '[name].bundle.js',
+		filename: '[name].js',
 		path: path.resolve(__dirname, 'dist'),
 		clean: true,
 	},

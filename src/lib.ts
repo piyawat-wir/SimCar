@@ -1,1 +1,0 @@
-export const MYCONSTANT = 0.123
